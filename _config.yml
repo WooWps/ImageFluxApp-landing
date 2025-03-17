@@ -1,82 +1,58 @@
 #page title
-page_title                                :                                           # Automatically populates with app name if not set and if iOS app ID is set. Otherwise enter manually.
+page_title                                : ImageFlux - Multiple Exposure Simulator
 
 # App Info
 ios_app_id                                : 1234793120                                # Required. Enter iOS app ID to automatically populate name, price and icons (e.g. 718043190).
 ios_app_country                           : us                                        # Required outside USA. Enter 2 letter country code as in https://en.wikipedia.org/wiki/ISO_3166-1_alpha-2
-
-appstore_link                             :                                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+appstore_link                             : https://apps.apple.com/app/id1234793120  # Enter the correct AppStore link.
 playstore_link                            :                                           # Enter Google Play Store URL.
-presskit_download_link                    : https://emilbaehr.com                                          # Enter a link to downloadable file or (e.g. public Dropbox link to a .zip file). 
-                                                                                      # Or upload your press kit file to assets and set path accordingly (e.g. "assets/your_press_kit.zip").
-
-app_icon                                  : # assets/appicon.png                      # Automatically populates if not set and if iOS app ID is set.  Otherwise enter path to icon file manually.
-app_name                                  :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_price                                 :                                           # Automatically populates if not set and if iOS app ID is set.  Otherwise enter manually.
-app_description                           : Write a short tagline for your app.
+app_icon                                  : assets/logo.png                           # Automatically populates if not set and if iOS app ID is set. Otherwise enter path to icon file manually.
+app_name                                  : ImageFlux                                  # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+app_price                                 : Free, In-app Subscriptions               # Automatically populates if not set and if iOS app ID is set. Otherwise enter manually.
+app_description                           : "ImageFlux is a powerful multiple exposure simulator that allows photographers to blend and manipulate multiple images in real time, with full support for RAW images and various blend modes."
 
 enable_smart_app_banner                   : true                                      # Set to true to show a smart app banner at top of page on mobile devices.
 
-
-
 # Information About Yourself
-your_name                                 : Emil Baehr                                
-your_link                                 : https://emilbaehr.com                     
-your_city                                 : Copenhagen                                
-email_address                             : emil.baehr@gmail.com
-facebook_username                         :                                           
-instagram_username                        : ebaehr
-twitter_username                          : ebaehr
-github_username                           : emilbaehr
-youtube_username                          :
-mastodon_link                             : https://mastodon.social/@ebaehr
+your_link: "https://WoowApps.info"
+email_address: "ozgurodabasi@icloud.com"
+instagram_username: "WoowApps"
+twitter_username: "WoowApps"
 
-
-
-# Feature List                            Edit, add or remove features to be presented.
+# Feature List
 features                                  :
 
-  - title                                 : GitHub Pages Jekyll Theme
-    description                           : Designed for GitHub Pages. Fork. Edit _config.yml. Upload screenshot/video. Push to gh-pages branch. Voilá!
+  - title                                 : Multiple Exposure Simulation
+    description                           : Blend multiple photos seamlessly with various blend modes, mimicking professional in-camera multiple exposure.
     fontawesome_icon_name                 : magic
     
-  - title                                 : iPhone Device Preview
-    description                           : Preview your app in the context of an iPhone device. Five different device colors included.
-    fontawesome_icon_name                 : mobile
+  - title                                 : RAW Format Support
+    description                           : Import and blend RAW images to preserve maximum dynamic range and image details.
+    fontawesome_icon_name                 : image
 
-  - title                                 : Video Support
-    description                           : Preview app video on the iPhone device simply by placing your video files in the videos folder.
+  - title                                 : Real-time Preview
+    description                           : Preview your blended images live with instant feedback as you adjust blend modes and layers.
     fontawesome_icon_name                 : play-circle
 
-  - title                                 : Automatic Icon and Metadata
-    description                           : Enter iOS app ID in the _config.yml file to automatically fetch app icon, price and App Store Link.
-    fontawesome_icon_name                 : sync
+  - title                                 : High-Resolution Export
+    description                           : Export your blended images in full resolution without losing quality. Supports JPG, TIFF, and DNG formats.
+    fontawesome_icon_name                 : file-export
 
-  - title                                 : Easy to Tweak
-    description                           : Tweak accent color, images, icons and transparency via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : adjust
+  - title                                 : User-friendly Interface
+    description                           : A simple and intuitive interface that allows photographers to quickly experiment with and apply multiple exposure effects.
+    fontawesome_icon_name                 : user-friends
+
+  - title                                 : Layer Reordering and Deletion
+    description                           : Easily reorder layers or remove unwanted images from your blend.
+    fontawesome_icon_name                 : layers
   
-  - title                                 : Feature List
-    description                           : Add features (like this one) to your site via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : star
+  - title                                 : Multiple Blend Modes
+    description                           : Choose from a variety of blend modes, including Multiply, Screen, Overlay, Soft Light, and more.
+    fontawesome_icon_name                 : magic
 
-  - title                                 : Smart App Banner
-    description                           : Display a smart app banner on iOS devices.
-    fontawesome_icon_name                 : arrow-alt-circle-down
-
-  - title                                 : Social Links
-    description                           : Easily add social media accounts and contact info in the footer via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : link
-
-  - title                                 : FontAwesome Support
-    description                           : Pick custom Font Awesome icons for the feature list via the _config.yml file. No HTML/CSS needed.
-    fontawesome_icon_name                 : info-circle
-
-  - title                                 : # New Feature Title
-    description                           : # New Feature Description
-    fontawesome_icon_name                 : # Enter Font Awesome icon name (e.g. star). Find icons on fontawesome.com/icons.
-
-
+  - title                                 : Cross-Platform Compatibility
+    description                           : Supports all major RAW file types across popular camera brands, allowing seamless integration for photographers.
+    fontawesome_icon_name                 : camera
 
 # Theme Settings
 topbar_color                              : "#000000"
@@ -100,24 +76,13 @@ app_description_color                     : "#ffffff"
 feature_title_color                       : "#000000"
 feature_text_color                        : "#666666"
 
-feature_icons_foreground_color            : "#1d63ea"
-feature_icons_background_color            : "#e6e6e6"
+feature_icons_foreground_color            : "#222222"
+feature_icons_background_color            : "#ffffff"
 
-social_icons_foreground_color             : "#666666"
-social_icons_background_color             : "#e6e6e6"
+social_icons_foreground_color             : "#222222"
+social_icons_background_color             : "#ffffff"
 
 footer_text_color                         : "#666666"
-
-
-
-
-
-
-
-
-
-
-
 
 
 ####################################################
@@ -141,3 +106,4 @@ collections:
 
 # Markdown rendering
 markdown: kramdown
+
