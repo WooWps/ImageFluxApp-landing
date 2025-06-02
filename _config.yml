@@ -22,37 +22,44 @@ bluesky_username: "WoowApps.info"
 # Feature List
 features                                  :
 
-  - title                                 : Multiple Exposure Simulation
-    description                           : Blend multiple photos seamlessly with various blend modes, mimicking professional in-camera multiple exposure.
-    fontawesome_icon_name                 : magic
-    
-  - title                                 : RAW Format Support
-    description                           : Import and blend RAW images to preserve maximum dynamic range and image details.
-    fontawesome_icon_name                 : image
+features:
 
-  - title                                 : Real-time Preview
-    description                           : Preview your blended images live with instant feedback as you adjust blend modes and layers.
-    fontawesome_icon_name                 : play-circle
+  - title: Real-Time Layer Control
+    description: Pinch, rotate, scale, and reposition layers live with instant feedback on your final composition.
+    fontawesome_icon_name: expand-arrows-alt
 
-  - title                                 : High-Resolution Export
-    description                           : Export your blended images in full resolution without losing quality. Supports JPG, TIFF, and DNG formats.
-    fontawesome_icon_name                 : file-export
+  - title: Advanced Multiple Exposure Simulation
+    description: Simulate analog-style multiple exposure effects with support for layering, stacking, and adjusting blend strength.
+    fontawesome_icon_name: magic
 
-  - title                                 : User-friendly Interface
-    description                           : A simple and intuitive interface that allows photographers to quickly experiment with and apply multiple exposure effects.
-    fontawesome_icon_name                 : user-friends
+  - title: Full RAW Support
+    description: Import and work with RAW images for maximum detail and dynamic range. Supports most major camera brands.
+    fontawesome_icon_name: image
 
-  - title                                 : Layer Reordering and Deletion
-    description                           : Easily reorder layers or remove unwanted images from your blend.
-    fontawesome_icon_name                 : layers
-  
-  - title                                 : Multiple Blend Modes
-    description                           : Choose from a variety of blend modes, including Multiply, Screen, Overlay, Soft Light, and more.
-    fontawesome_icon_name                 : magic
+  - title: Non-Destructive Workflow
+    description: Re-edit and tweak your blends at any time. Every layer remains editable, with no quality loss.
+    fontawesome_icon_name: undo
 
-  - title                                 : Cross-Platform Compatibility
-    description                           : Supports all major RAW file types across popular camera brands, allowing seamless integration for photographers.
-    fontawesome_icon_name                 : camera
+  - title: High-Resolution Export
+    description: Save your creations in full quality — including JPG, TIFF. Perfect for printing or post-processing.
+    fontawesome_icon_name: file-export
+
+  - title: Clean, Minimal Interface
+    description: Designed for visual focus. Intuitive and distraction-free, even with complex compositions.
+    fontawesome_icon_name: eye
+
+  - title: Flexible Blend Modes
+    description: Mix layers using Multiply, Screen, Overlay, Soft Light, and other artist-grade blend modes.
+    fontawesome_icon_name: adjust
+
+  - title: Layer Stack Management
+    description: Drag to reorder layers or remove any with ease. Includes undo and reset options for fast iteration.
+    fontawesome_icon_name: layers
+
+  - title: Optimized for Photographers
+    description: Designed with photographers in mind — from street to experimental, analog-style to abstract.
+    fontawesome_icon_name: camera-retro
+
 
 # Theme Settings
 topbar_color                              : "#000000"
